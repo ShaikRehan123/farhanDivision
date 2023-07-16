@@ -121,7 +121,7 @@ function App() {
             className="bg-white py-2    border border-gray-900 border-solid rounded-md"
             key={i}
           >
-            {[...Array(10).keys()].map((i, i_) => (
+            {[...Array(9).keys()].map((i, i_) => (
               <>
                 <div
                   key={i_}
@@ -135,7 +135,7 @@ function App() {
                     {number % (i + 1)}
                   </span>
                 </div>
-                {i !== 9 && <div className="h-[1px] bg-gray-300"></div>}
+                {i !== 8 && <div className="h-[1px] bg-gray-300"></div>}
               </>
             ))}
           </div>
@@ -164,7 +164,7 @@ function App() {
             className="bg-white py-2  border border-gray-900 border-solid rounded-md"
             key={i}
           >
-            {[...Array(10).keys()].map((i, i_) => (
+            {[...Array(9).keys()].map((i, i_) => (
               <>
                 <div
                   key={i_}
@@ -177,7 +177,7 @@ function App() {
                     = ‎ ‎ Q = ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ , R = ‎ ‎ ‎ ‎ ‎ ‎
                   </span>
                 </div>
-                {i !== 9 && <div className="h-[1px] bg-gray-300"></div>}
+                {i !== 8 && <div className="h-[1px] bg-gray-300"></div>}
               </>
             ))}
           </div>
