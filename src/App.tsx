@@ -127,11 +127,12 @@ function App() {
                   key={i_}
                   className="flex flex-row justify-between  p-1  items-center  rounded-md font-bold "
                 >
-                  <span className="flex-1">{number}</span>
-                  <span className="flex-1">&#247;</span>
-                  <span className="flex-1">{i + 1}</span>
-                  <span className="flex-2">
-                    = ‎ ‎ Q = {Math.floor(number / (i + 1))} , R ={" "}
+                  <span className="">
+                    {number} ‎ ‎ &#247; ‎ ‎ {i + 1}
+                  </span>
+                  ‎ ‎‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎‎
+                  <span className="flex-1">
+                    = ‎ ‎ Q = {Math.floor(number / (i + 1))} ‎ ‎ ‎ ‎ R ={" "}
                     {number % (i + 1)}
                   </span>
                 </div>
@@ -170,11 +171,12 @@ function App() {
                   key={i_}
                   className="flex flex-row justify-between  p-1  items-center  rounded-md font-bold "
                 >
-                  <span className="flex-1">{number}</span>
-                  <span className="flex-1">&#247;</span>
-                  <span className="flex-1">{i + 1}</span>
-                  <span className="flex-2">
-                    = ‎ ‎ Q = ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ , R = ‎ ‎ ‎ ‎ ‎ ‎
+                  <span className="">
+                    {number} ‎ ‎ &#247; ‎ ‎ {i + 1}
+                  </span>
+                  ‎ ‎‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎‎
+                  <span className="flex-1">
+                    = ‎ ‎ Q = ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ R = ‎ ‎ ‎ ‎ ‎ ‎
                   </span>
                 </div>
                 {i !== 8 && <div className="h-[1px] bg-gray-300"></div>}
