@@ -121,7 +121,7 @@ function App() {
             className="bg-white py-2    border border-gray-900 border-solid rounded-md"
             key={i}
           >
-            {[...Array(9).keys()].reverse().map((i, i_) => (
+            {[...Array(10).keys()].map((i, i_) => (
               <>
                 <div
                   key={i_}
@@ -165,7 +165,7 @@ function App() {
             className="bg-white py-2  border border-gray-900 border-solid rounded-md"
             key={i}
           >
-            {[...Array(9).keys()].reverse().map((i, i_) => (
+            {[...Array(10).keys()].map((i, i_) => (
               <>
                 <div
                   key={i_}
